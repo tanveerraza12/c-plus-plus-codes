@@ -1,0 +1,17 @@
+if 2 for loop has i in the mid one  (i=0; i<=i; i++) then it the structure was triangle if 1 one is n and 2 one is j<=n then it is for square.
+
+
+if you cout<<i in loop then it prints same no. again 
+if you cout<<j in loop then it prints next no .
+
+    FOR EX..    
+
+        cout<<*     cout<<j         cout<<i 
+        *****       12345           11111
+        *****       12345           22222
+        *****       12345           33333
+
+        cout<<(char)(j+64)      char<< j<=1
+        ABC                     give triangle
+        ABC                     or all above
+        ABC
