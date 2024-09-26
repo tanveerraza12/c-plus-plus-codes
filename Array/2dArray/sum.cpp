@@ -30,7 +30,7 @@ int main()
     {
          for (int j=0; j<3; j++)//col output
     {
-         sum[2][3] = arr1[2][3] + arr2[2][3];
+          sum[i][j] = arr1[i][j] + arr2[i][j]; 
          cout << sum[i][j]<<" ";
 
     }
@@ -38,4 +38,3 @@ int main()
     }
 }
 
-// input takes, but output is wrong
