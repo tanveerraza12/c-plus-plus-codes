@@ -26,12 +26,11 @@ int main()
         cout << endl;
     }
     int sum[2][3];
-    sum[2][3] = arr1[2][3] + arr2[2][3];
-
     for (int i=0; i <2; i++)//row output
     {
          for (int j=0; j<3; j++)//col output
     {
+         sum[2][3] = arr1[2][3] + arr2[2][3];
          cout << sum[i][j]<<" ";
 
     }
