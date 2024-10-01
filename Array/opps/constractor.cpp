@@ -21,18 +21,14 @@ void print(cars c)
 }
 int main()
 {
-    cars c1("lambo", 2, 20000000, "Red");
-    // c1.name = "lambo";
-    // c1.seats = 2;
-    // c1.price = 2000000";
-    // c1.color = "Red";
-
-    cars c2("RR", 4, 1600000,"Black");
-    // c2.name = "RR";
-    // c2.seats = 4;
-    // c2.price = 160000000 ;
-    // c2.color = "Black";
+    cars c1("Lambo", 2, 20000000, "Red");
+    cars c2("RR", 4, 16000000,"Black");
+    cars c3("Audi SR", 4, 6000000,"Zed_Black");
+    cars c4("BMW", 4, 8000000,"Mat_Black");
+   
 
     print(c1);
     print(c2);
+    print(c3);
+    print(c4);
 }
